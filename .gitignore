@@ -1,0 +1,23 @@
+# Large datasets
+Mini_weekly_project-11/K_means_clusterning_heir/OnlineRetail.csv
+Mini_weekly_project-6/train.csv
+Mini_weekly_project-6/test.csv
+Mini_weekly_project-4/black friday/train.csv
+Mini_weekly_project-4/black friday/test.csv
+Mini_weekly_project-10/SVR/Clean_Dataset.csv
+Mini_weekly_project-7/dataset.csv
+Mini_weekly_project-8/diabetes_dataset.csv
+Mini_weekly_project-9/health_lifestyle_dataset.csv
+Mini_weekly_project-10/SVC/bank-additional-full.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Reference docs
+ML_Roadmap.docx
+
+# OS files
+Thumbs.db
+.DS_Store
