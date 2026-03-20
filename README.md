@@ -177,5 +177,5 @@ Small datasets included directly in the repo:
 ## 👤 Author
 
 **Vatsal**
-Weekly ML Projects — November 2025 to March 2026
+Weekly ML Projects 
 Machine Learning | Scikit-learn | Pipelines | Python
