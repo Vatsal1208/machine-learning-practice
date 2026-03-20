@@ -11,3 +11,4 @@ ydata-profiling
 kagglehub
 fastapi
 uvicorn
+joblib

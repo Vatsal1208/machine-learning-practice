@@ -9,6 +9,8 @@ Mini_weekly_project-7/dataset.csv
 Mini_weekly_project-8/diabetes_dataset.csv
 Mini_weekly_project-9/health_lifestyle_dataset.csv
 Mini_weekly_project-10/SVC/bank-additional-full.csv
+ml_pipeline_learning/day.csv
+ml_pipeline_learning/Readme.txt
 
 # Python cache
 __pycache__/

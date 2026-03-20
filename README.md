@@ -1,6 +1,6 @@
-# Machine Learning Practice Projects
+##  Machine Learning Practice Projects
 
-A collection of 11 mini weekly projects covering core Machine Learning concepts — from statistics and EDA to supervised and unsupervised learning — built using Python and Scikit-learn.
+A collection of 11 mini weekly projects + ML pipeline projects covering core Machine Learning concepts — from statistics and EDA to supervised learning, unsupervised learning, and production-ready pipelines — built using Python and Scikit-learn.
 
 ---
 
@@ -11,24 +11,12 @@ Python 3.8+ required.
 
 ### Install all libraries at once
 ```bash
-# Recommended way
 pip install -r requirements.txt
 ```
 
 ### Or install individually
 ```bash
-pip install pandas                  # Data manipulation
-pip install numpy                   # Numerical computing
-pip install matplotlib              # Plotting
-pip install seaborn                 # Statistical visualization
-pip install scikit-learn            # ML models
-pip install scipy                   # Statistics & clustering
-pip install xgboost                 # Gradient boosting
-pip install imbalanced-learn        # SMOTE for imbalanced datasets
-pip install plotly                  # Interactive charts
-pip install ydata-profiling         # Auto EDA reports
-pip install kagglehub               # Kaggle dataset downloader
-pip install fastapi uvicorn         # Project-4 Titanic API
+pip install pandas numpy matplotlib seaborn scikit-learn scipy xgboost imbalanced-learn plotly ydata-profiling kagglehub fastapi uvicorn joblib
 ```
 
 ---
@@ -36,7 +24,7 @@ pip install fastapi uvicorn         # Project-4 Titanic API
 ## 📁 Project Structure
 
 ```
-Machine_learning_practice/
+machine-learning-practice/
 │
 ├── Mini_weekly_project-1/          # Statistics Fundamentals
 │   ├── statistics_fundamentals.ipynb
@@ -54,10 +42,10 @@ Machine_learning_practice/
 │   ├── titanic/
 │   │   ├── titanic_dataset.ipynb
 │   │   ├── model_pickel
-│   │   ├── Testing_fastapi_rf/
-│   │   │   ├── main.py
-│   │   │   └── model_pickel_titanic_rf
-│   │   └── gender_submission.csv
+│   │   ├── gender_submission.csv
+│   │   └── Testing_fastapi_rf/
+│   │       ├── main.py
+│   │       └── model_pickel_titanic_rf
 │   ├── black friday/
 │   │   └── black_friday_dataset.ipynb
 │   └── coaster/
@@ -101,13 +89,26 @@ Machine_learning_practice/
 │       ├── data-dictionary.csv
 │       └── Country_data_report.html
 │
+├── ml_pipeline_learning/           # ML Pipelines
+│   ├── vehicle/
+│   │   ├── vehicle_emissions.csv
+│   │   ├── vehicle_emmi.ipynb
+│   │   └── vehicle_emmission_pipeline.joblib
+│   ├── bike_rental.ipynb
+│   ├── bike_pipeline_final.pkl
+│   ├── hour.csv
+│   └── test.csv
+│
 ├── datasets.md                     # Download links for large datasets
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
 ## 📚 Projects Overview
+
+### 📊 Mini Weekly Projects
 
 | Project | Topic | Algorithms / Concepts |
 |---------|-------|----------------------|
@@ -122,6 +123,13 @@ Machine_learning_practice/
 | Project-9 | Disease Risk Prediction | KNN, StandardScaler, Classification Report |
 | Project-10 | SVC + SVR | Support Vector Classifier, Support Vector Regressor |
 | Project-11 | Clustering | K-Means, Hierarchical, DBSCAN, Silhouette Score |
+
+### 🔧 ML Pipeline Projects
+
+| Project | Topic | Algorithms / Concepts |
+|---------|-------|----------------------|
+| Bike Rental | Hourly bike rental count prediction | Random Forest Regressor, Pipeline, ColumnTransformer, StandardScaler, OneHotEncoder, SimpleImputer |
+| Vehicle Emissions | Vehicle emissions prediction | Random Forest, XGBoost, Pipeline, OrdinalEncoder, Custom Transformers, RandomizedSearchCV, KFold, joblib |
 
 ---
 
@@ -141,6 +149,9 @@ Small datasets included directly in the repo:
 - `Country-data.csv`
 - `data-dictionary.csv`
 - `bank-additional-names.txt`
+- `hour.csv` — bike rental hourly data
+- `test.csv` — bike rental test data
+- `vehicle_emissions.csv`
 
 ---
 
@@ -152,20 +163,19 @@ Small datasets included directly in the repo:
 | Pandas | Data manipulation |
 | NumPy | Numerical computing |
 | Matplotlib / Seaborn | Visualization |
-| Scikit-learn | ML models, preprocessing, evaluation |
+| Scikit-learn | ML models, pipelines, preprocessing, evaluation |
 | SciPy | Statistics, clustering |
 | XGBoost | Gradient boosting |
 | Imbalanced-learn | SMOTE for class imbalance |
 | Plotly | Interactive charts |
 | YData Profiling | Auto EDA reports |
 | FastAPI + Uvicorn | REST API for Titanic model |
-| Pickle | Model saving and loading |
+| Pickle / Joblib | Model saving and loading |
 
 ---
 
 ## 👤 Author
 
 **Vatsal**
-
-Weekly ML Projects
-Machine Learning | Scikit-learn | Python
+Weekly ML Projects — November 2025 to March 2026
+Machine Learning | Scikit-learn | Pipelines | Python
