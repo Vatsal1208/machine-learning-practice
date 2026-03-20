@@ -177,5 +177,6 @@ Small datasets included directly in the repo:
 ## 👤 Author
 
 **Vatsal**
+
 Weekly ML Projects 
 Machine Learning | Scikit-learn | Pipelines | Python
